@@ -1,0 +1,19 @@
+1:  ProgramK
+2:    ProgramHeadK
+3:      PROGRAMK program
+3:      ProgramNameK
+4:        IDK sd
+2:    DeclarePartK
+3:      TypeDecPartK
+4:        TypeDecK
+5:          TYPEK type
+5:          TypeDecListK
+6:            TypeIdK
+7:              IDK i
+6:            EQK =
+6:            TypeDefK
+7:              BaseTypeK
+8:                INTEGERK integer
+line 4 : unexpected token ID : sarray
+line 4 : unexpected token ID : sarray
+Error occured.

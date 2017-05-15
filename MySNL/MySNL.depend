@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1494808232 source:c:\users\win\desktop\编译原理\mysnl\mysnl\main.cpp
+	<iostream>
+	"scanner.h"
+	"parse.h"
+	"parserLL1.h"
+
+1493440554 c:\users\win\desktop\编译原理\mysnl\mysnl\lex.h
+	<cstring>
+	<map>
+	<fstream>
+
+1493442133 source:c:\users\win\desktop\编译原理\mysnl\mysnl\scaner.cpp
+	<iostream>
+	<cctype>
+	<string>
+	"scanner.h"
+
+1493442548 c:\users\win\desktop\编译原理\mysnl\mysnl\scanner.h
+	<cstring>
+	<map>
+	<fstream>
+
+1493448963 source:c:\users\win\desktop\编译原理\mysnl\mysnl\snode.cpp
+	<iostream>
+	"Snode.h"
+
+1493448963 c:\users\win\desktop\编译原理\mysnl\mysnl\snode.h
+	<string>
+	<vector>
+
+1494201681 c:\users\win\desktop\编译原理\mysnl\mysnl\parse.h
+	"Snode.h"
+	"scanner.h"
+
+1494201575 source:c:\users\win\desktop\编译原理\mysnl\mysnl\parse.cpp
+	"parse.h"
+	<iostream>
+
+1494813248 c:\users\win\desktop\编译原理\mysnl\mysnl\parserll1.h
+	<cstring>
+	<map>
+	<fstream>
+	"parse.h"
+
+1494808232 source:c:\users\win\desktop\编译原理\mysnl\mysnl\parserll1.cpp
+	<iostream>
+	<cstring>
+	<map>
+	<stack>
+	<fstream>
+	"parserLL1.h"
+

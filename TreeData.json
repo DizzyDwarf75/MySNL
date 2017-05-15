@@ -1,0 +1,862 @@
+{
+"name" : "ProgramK",
+"children" : [
+{
+"name" : "ProgramHeadK",
+"children" : [
+{
+"name" : "PROGRAMK program"
+},
+{
+"name" : "ProgramNameK",
+"children" : [
+{"name" : "IDK sd"
+}
+]
+}
+]
+},{
+"name" : "DeclarePartK",
+"children" : [
+{
+"name" : "TypeDecPartK",
+"children" : [
+{
+"name" : "TypeDecK",
+"children" : [
+{
+"name" : "TYPEK type"
+},
+{
+"name" : "TypeDecListK",
+"children" : [
+{
+"name" : "TypeIdK",
+"children" : [
+{"name" : "IDK i"
+}
+]
+}
+,{
+"name" : "EQK ="
+},
+{
+"name" : "TypeDefK",
+"children" : [
+{
+"name" : "BaseTypeK",
+"children" : [
+{"name" : "INTEGERK integer"
+}
+]
+}
+]
+},{
+"name" : "SEMIK ;"
+},
+{
+"name" : "TypeDecMoreK",
+"children" : [
+{
+"name" : "TypeDecListK",
+"children" : [
+{
+"name" : "TypeIdK",
+"children" : [
+{"name" : "IDK sarray"
+}
+]
+}
+,{
+"name" : "EQK ="
+},
+{
+"name" : "TypeDefK",
+"children" : [
+{
+"name" : "StructureTypeK",
+"children" : [
+{
+"name" : "ArrayTypeK",
+"children" : [
+{
+"name" : "ARRAYK array"
+},
+{
+"name" : "LMIDPARENK ["
+},
+{
+"name" : "LowK",
+"children" : [
+{"name" : "INTC_VALK 0"
+}
+]
+}
+,{
+"name" : "UNDERRANGEK .."
+},
+{
+"name" : "TopK",
+"children" : [
+{"name" : "INTC_VALK 5"
+}
+]
+}
+,{
+"name" : "RMIDPARENK ]"
+},
+{
+"name" : "OFK of"
+},
+{
+"name" : "BaseTypeK",
+"children" : [
+{"name" : "INTEGERK integer"
+}
+]
+}
+]
+}]
+}]
+},{
+"name" : "SEMIK ;"
+},
+{"name" : "TypeDecMoreK"
+}
+]
+}
+]
+}]
+}]
+}]
+},{
+"name" : "VarDecPartK",
+"children" : [
+{
+"name" : "VarDecK",
+"children" : [
+{
+"name" : "VARK var"
+},
+{
+"name" : "VarDecListK",
+"children" : [
+{
+"name" : "TypeDefK",
+"children" : [
+{"name" : "IDK i"
+}
+]
+}
+,{
+"name" : "VarIdListK",
+"children" : [
+{
+"name" : "IDK x"
+},
+{"name" : "VarIdMoreK"
+}
+]
+}
+,{
+"name" : "SEMIK ;"
+},
+{
+"name" : "VarDecMoreK",
+"children" : [
+{
+"name" : "VarDecListK",
+"children" : [
+{
+"name" : "TypeDefK",
+"children" : [
+{"name" : "IDK sarray"
+}
+]
+}
+,{
+"name" : "VarIdListK",
+"children" : [
+{
+"name" : "IDK y"
+},
+{"name" : "VarIdMoreK"
+}
+]
+}
+,{
+"name" : "SEMIK ;"
+},
+{
+"name" : "VarDecMoreK",
+"children" : [
+{
+"name" : "VarDecListK",
+"children" : [
+{
+"name" : "TypeDefK",
+"children" : [
+{
+"name" : "BaseTypeK",
+"children" : [
+{"name" : "INTEGERK integer"
+}
+]
+}
+]
+},{
+"name" : "VarIdListK",
+"children" : [
+{
+"name" : "IDK ss"
+},
+{"name" : "VarIdMoreK"
+}
+]
+}
+,{
+"name" : "SEMIK ;"
+},
+{"name" : "VarDecMoreK"
+}
+]
+}
+]
+}]
+}]
+}]
+}]
+}]
+},{
+"name" : "ProcDecPartK",
+"children" : [
+{
+"name" : "ProcDecK",
+"children" : [
+{
+"name" : "PROCEDUREK procedure"
+},
+{
+"name" : "ProcNameK",
+"children" : [
+{"name" : "IDK sd"
+}
+]
+}
+,{
+"name" : "LPARENK ("
+},
+{
+"name" : "ParamListK",
+"children" : [
+{
+"name" : "ParamDecListK",
+"children" : [
+{
+"name" : "ParamK",
+"children" : [
+{
+"name" : "TypeDefK",
+"children" : [
+{
+"name" : "BaseTypeK",
+"children" : [
+{"name" : "INTEGERK integer"
+}
+]
+}
+]
+},{
+"name" : "FormListK",
+"children" : [
+{
+"name" : "IDK a"
+},
+{"name" : "FidMoreK"
+}
+]
+}
+]
+},{"name" : "ParamMoreK"
+}
+]
+}
+]
+},{
+"name" : "RPARENK )"
+},
+{
+"name" : "SEMIK ;"
+},
+{
+"name" : "ProcDecPartK"
+},
+{
+"name" : "ProcBodyK",
+"children" : [
+{
+"name" : "ProgramBodyK",
+"children" : [
+{
+"name" : "BEGINK begin"
+},
+{
+"name" : "StmListK",
+"children" : [
+{
+"name" : "StmK",
+"children" : [
+{
+"name" : "OutputStmK",
+"children" : [
+{
+"name" : "WRITEK write"
+},
+{
+"name" : "LPARENK ("
+},
+{
+"name" : "ExpK",
+"children" : [
+{
+"name" : "TermK",
+"children" : [
+{
+"name" : "FactorK",
+"children" : [
+{
+"name" : "VariableK",
+"children" : [
+{
+"name" : "IDK a"
+},
+{"name" : "VariMoreK"
+}
+]
+}
+]
+},{"name" : "OtherFactorK"
+}
+]
+}
+,{"name" : "OtherTermK"
+}
+]
+}
+,{"name" : "RPARENK )"
+}
+]
+}
+]
+},{"name" : "StmMoreK"
+}
+]
+}
+,{"name" : "ENDK end"
+}
+]
+}
+]
+},{"name" : "ProcDecMoreK"
+}
+]
+}
+]
+}]
+},{
+"name" : "ProgramBodyK",
+"children" : [
+{
+"name" : "BEGINK begin"
+},
+{
+"name" : "StmListK",
+"children" : [
+{
+"name" : "StmK",
+"children" : [
+{
+"name" : "IDK ss"
+},
+{
+"name" : "AssCallK",
+"children" : [
+{
+"name" : "AssignmentRestK",
+"children" : [
+{
+"name" : "VariMoreK"
+},
+{
+"name" : "ASSIGNK :="
+},
+{
+"name" : "ExpK",
+"children" : [
+{
+"name" : "TermK",
+"children" : [
+{
+"name" : "FactorK",
+"children" : [
+{"name" : "INTC_VALK 0"
+}
+]
+}
+,{"name" : "OtherFactorK"
+}
+]
+}
+,{"name" : "OtherTermK"
+}
+]
+}
+]
+}]
+}]
+},{
+"name" : "StmMoreK",
+"children" : [
+{
+"name" : "SEMIK ;"
+},
+{
+"name" : "StmListK",
+"children" : [
+{
+"name" : "StmK",
+"children" : [
+{
+"name" : "LoopStmK",
+"children" : [
+{
+"name" : "WHILEK while"
+},
+{
+"name" : "RelExpK",
+"children" : [
+{
+"name" : "ExpK",
+"children" : [
+{
+"name" : "TermK",
+"children" : [
+{
+"name" : "FactorK",
+"children" : [
+{
+"name" : "VariableK",
+"children" : [
+{
+"name" : "IDK ss"
+},
+{"name" : "VariMoreK"
+}
+]
+}
+]
+},{"name" : "OtherFactorK"
+}
+]
+}
+,{"name" : "OtherTermK"
+}
+]
+}
+,{
+"name" : "OtherRelEK",
+"children" : [
+{
+"name" : "CmpOpK",
+"children" : [
+{"name" : "LTK <"
+}
+]
+}
+,{
+"name" : "ExpK",
+"children" : [
+{
+"name" : "TermK",
+"children" : [
+{
+"name" : "FactorK",
+"children" : [
+{"name" : "INTC_VALK 6"
+}
+]
+}
+,{"name" : "OtherFactorK"
+}
+]
+}
+,{"name" : "OtherTermK"
+}
+]
+}
+]
+}]
+},{
+"name" : "DOK do"
+},
+{
+"name" : "StmListK",
+"children" : [
+{
+"name" : "StmK",
+"children" : [
+{
+"name" : "IDK y"
+},
+{
+"name" : "AssCallK",
+"children" : [
+{
+"name" : "AssignmentRestK",
+"children" : [
+{
+"name" : "VariMoreK",
+"children" : [
+{
+"name" : "LMIDPARENK ["
+},
+{
+"name" : "ExpK",
+"children" : [
+{
+"name" : "TermK",
+"children" : [
+{
+"name" : "FactorK",
+"children" : [
+{
+"name" : "VariableK",
+"children" : [
+{
+"name" : "IDK ss"
+},
+{"name" : "VariMoreK"
+}
+]
+}
+]
+},{"name" : "OtherFactorK"
+}
+]
+}
+,{"name" : "OtherTermK"
+}
+]
+}
+,{"name" : "RMIDPARENK ]"
+}
+]
+}
+,{
+"name" : "ASSIGNK :="
+},
+{
+"name" : "ExpK",
+"children" : [
+{
+"name" : "TermK",
+"children" : [
+{
+"name" : "FactorK",
+"children" : [
+{
+"name" : "VariableK",
+"children" : [
+{
+"name" : "IDK ss"
+},
+{"name" : "VariMoreK"
+}
+]
+}
+]
+},{"name" : "OtherFactorK"
+}
+]
+}
+,{"name" : "OtherTermK"
+}
+]
+}
+]
+}]
+}]
+},{
+"name" : "StmMoreK",
+"children" : [
+{
+"name" : "SEMIK ;"
+},
+{
+"name" : "StmListK",
+"children" : [
+{
+"name" : "StmK",
+"children" : [
+{
+"name" : "IDK x"
+},
+{
+"name" : "AssCallK",
+"children" : [
+{
+"name" : "AssignmentRestK",
+"children" : [
+{
+"name" : "VariMoreK"
+},
+{
+"name" : "ASSIGNK :="
+},
+{
+"name" : "ExpK",
+"children" : [
+{
+"name" : "TermK",
+"children" : [
+{
+"name" : "FactorK",
+"children" : [
+{
+"name" : "VariableK",
+"children" : [
+{
+"name" : "IDK y"
+},
+{
+"name" : "VariMoreK",
+"children" : [
+{
+"name" : "LMIDPARENK ["
+},
+{
+"name" : "ExpK",
+"children" : [
+{
+"name" : "TermK",
+"children" : [
+{
+"name" : "FactorK",
+"children" : [
+{
+"name" : "VariableK",
+"children" : [
+{
+"name" : "IDK ss"
+},
+{"name" : "VariMoreK"
+}
+]
+}
+]
+},{"name" : "OtherFactorK"
+}
+]
+}
+,{"name" : "OtherTermK"
+}
+]
+}
+,{"name" : "RMIDPARENK ]"
+}
+]
+}
+]
+}]
+},{"name" : "OtherFactorK"
+}
+]
+}
+,{"name" : "OtherTermK"
+}
+]
+}
+]
+}]
+}]
+},{
+"name" : "StmMoreK",
+"children" : [
+{
+"name" : "SEMIK ;"
+},
+{
+"name" : "StmListK",
+"children" : [
+{
+"name" : "StmK",
+"children" : [
+{
+"name" : "IDK sd"
+},
+{
+"name" : "AssCallK",
+"children" : [
+{
+"name" : "CallStmRestK",
+"children" : [
+{
+"name" : "LPARENK ("
+},
+{
+"name" : "ActParamListK",
+"children" : [
+{
+"name" : "ExpK",
+"children" : [
+{
+"name" : "TermK",
+"children" : [
+{
+"name" : "FactorK",
+"children" : [
+{
+"name" : "VariableK",
+"children" : [
+{
+"name" : "IDK x"
+},
+{"name" : "VariMoreK"
+}
+]
+}
+]
+},{"name" : "OtherFactorK"
+}
+]
+}
+,{"name" : "OtherTermK"
+}
+]
+}
+,{"name" : "ActParamMoreK"
+}
+]
+}
+,{"name" : "RPARENK )"
+}
+]
+}
+]
+}]
+},{
+"name" : "StmMoreK",
+"children" : [
+{
+"name" : "SEMIK ;"
+},
+{
+"name" : "StmListK",
+"children" : [
+{
+"name" : "StmK",
+"children" : [
+{
+"name" : "IDK ss"
+},
+{
+"name" : "AssCallK",
+"children" : [
+{
+"name" : "AssignmentRestK",
+"children" : [
+{
+"name" : "VariMoreK"
+},
+{
+"name" : "ASSIGNK :="
+},
+{
+"name" : "ExpK",
+"children" : [
+{
+"name" : "TermK",
+"children" : [
+{
+"name" : "FactorK",
+"children" : [
+{
+"name" : "VariableK",
+"children" : [
+{
+"name" : "IDK ss"
+},
+{"name" : "VariMoreK"
+}
+]
+}
+]
+},{"name" : "OtherFactorK"
+}
+]
+}
+,{
+"name" : "OtherTermK",
+"children" : [
+{
+"name" : "AddOpK",
+"children" : [
+{"name" : "PLUSK +"
+}
+]
+}
+,{
+"name" : "ExpK",
+"children" : [
+{
+"name" : "TermK",
+"children" : [
+{
+"name" : "FactorK",
+"children" : [
+{"name" : "INTC_VALK 1"
+}
+]
+}
+,{"name" : "OtherFactorK"
+}
+]
+}
+,{"name" : "OtherTermK"
+}
+]
+}
+]
+}]
+}]
+}]
+}]
+},{"name" : "StmMoreK"
+}
+]
+}
+]
+}]
+}]
+}]
+}]
+}]
+},{"name" : "ENDWHK endwh"
+}
+]
+}
+]
+},{"name" : "StmMoreK"
+}
+]
+}
+]
+}]
+},{"name" : "ENDK end"
+}
+]
+}
+,{"name" : "DOTK ."
+}
+]
+}

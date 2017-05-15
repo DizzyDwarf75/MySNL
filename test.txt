@@ -1,0 +1,40 @@
+1:  ProgramK
+2:    ProgramHeadK
+3:      PROGRAMK program
+3:      ProgramNameK
+4:        IDK sd
+2:    DeclarePartK
+3:      TypeDecPartK
+4:        TypeDecK
+5:          TYPEK type
+5:          TypeDecListK
+6:            TypeIdK
+7:              IDK i
+6:            EQK =
+6:            TypeDefK
+7:              BaseTypeK
+8:                INTEGERK integer
+6:            SEMIK ;
+6:            TypeDecMoreK
+7:              TypeDecListK
+8:                TypeIdK
+9:                  IDK sarray
+8:                EQK =
+8:                TypeDefK
+9:                  StructureTypeK
+10:                    ArrayTypeK
+11:                      ARRAYK array
+11:                      LMIDPARENK [
+11:                      LowK
+12:                        INTC_VALK 0
+11:                      UNDERRANGEK ..
+11:                      TopK
+12:                        INTC_VALK 5
+11:                      RMIDPARENK ]
+11:                      OFK of
+11:                      BaseTypeK
+12:                        INTEGERK integer
+8:                SEMIK ;
+8:                TypeDecMoreK
+2:    HHH
+1:No error
